@@ -4,14 +4,20 @@ local STRESS_RELIEF_AMOUNT = 100
 local CHECK_RADIUS = 5.0
 local CHICKEN_TYPES = {
     {
-        label = "Rooster",
-        model = `a_c_rooster_01`,
+        label = "lion",
+        model = `a_c_lionmangy_01`,
         health = 150,
         speed = 1.2
     },
     {
-        label = "Prize Rooster",
-        model = `a_c_rooster_01`, 
+        label = "shepherd",
+        model = `A_C_DogAustralianSheperd_01`, 
+        health = 200,
+        speed = 1.5
+    },
+	{
+        label = "husky",
+        model = `a_c_doghusky_01`, 
         health = 200,
         speed = 1.5
     },
@@ -23,13 +29,13 @@ local CHICKEN_TYPES = {
     },
 	{
         label = "Prize Aligator",
-        model = `a_c_alligator_02`, 
+        model = `A_C_Alligator_01`, 
         health = 200,
         speed = 1.5
     },
 	{
-        label = "Prize Buffalo",
-        model = `a_c_buffalo_tatanka_01`, 
+        label = "lion dog",
+        model = `a_c_doglion_01`, 
         health = 200,
         speed = 1.5
     },
